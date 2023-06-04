@@ -1,5 +1,7 @@
 import "./App.css";
 import styles from "./App.module.css";
+import ChooseAndPlay from "./section/ChooseAndPlay";
+import ScoresAndResults from "./section/ScoresAndResults";
 
 function App() {
   return (
@@ -8,8 +10,8 @@ function App() {
         <h1>Roct, Paper, Scissors</h1>
         <p>React-TypeScript-Testing Library</p>
       </div>
-      {/* <ScoreAndResult/>
-    <ChooseAndPlay/> */}
+      <ScoresAndResults />
+      <ChooseAndPlay />
     </div>
   );
 }
